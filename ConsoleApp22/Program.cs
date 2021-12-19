@@ -23,7 +23,7 @@ namespace ConsoleApp22
             {
                 if (primenums[i - 1])
                 {
-                    for (int t = (i * i); t < A; t += i)
+                    for (int t = i * i; t < A; t += i)
                     {
                         primenums[t - 1] = false;
                     }
